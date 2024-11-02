@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+See the following link for more information
+https://scottmoss.notion.site/Routing-Basics-3ae07c848e4744a6b713d66873ab398f
 
-## Getting Started
+# Routing Basics in Next.js
 
-First, run the development server:
+This README provides an overview of routing fundamentals in Next.js, including file-based routing, route groups, and advanced navigation features introduced in Next.js 13.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Directory Structure
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Organize routes using folders in the `/app` directory, where each folder corresponds to a URL segment.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Route Groups**: Create invisible folder structures (e.g., `(admin)`).
+- **Special Files**: Use `layout.js`, `loading.js`, and `error.js` to manage layouts, loading states, and errors.
+- **Advanced Routing**: Parallel and intercepting routes for complex navigation.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For the full guide, see [Routing Basics](https://scottmoss.notion.site/Routing-Basics-3ae07c848e4744a6b713d66873ab398f).
